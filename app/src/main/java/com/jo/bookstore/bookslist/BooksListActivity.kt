@@ -1,12 +1,13 @@
-package com.jo.bookstore
+package com.jo.bookstore.bookslist
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.jo.bookstore.R
 
-class MainActivity : AppCompatActivity() {
+class BooksListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
