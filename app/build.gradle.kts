@@ -53,4 +53,5 @@ dependencies {
     implementation(libs.androidx.room.ktx)
 
     implementation(libs.picasso)
+    implementation(libs.timber)
 }
